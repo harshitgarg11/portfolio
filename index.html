@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Garg - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <nav>
+        <div class="logo">HG</div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="theme-toggle-icon">🌙</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Introduction</h1>
+            <p>I'm Harshit Garg, a passionate and dedicated software developer with a focus on creating seamless and impactful digital experiences. With a strong foundation in both frontend and backend development, I specialize in transforming complex problems into elegant and user-friendly solutions. My goal is to leverage technology to make a positive impact, ensuring that every project I undertake is both functional and aesthetically pleasing.</p>
+            
+            <div class="key-highlights">
+                <div class="highlight-card">
+                    <h3>DSA Problem Solving</h3>
+                    <p>Proficient in Data Structures and Algorithms with a strong track record of solving complex programming challenges. Regular participant in coding competitions and practice platforms, constantly improving problem-solving skills and algorithmic thinking.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h3>Team Collaboration</h3>
+                    <p>Experienced team player with excellent communication skills and a proven ability to work effectively in diverse groups. Skilled in collaborative development, version control, and agile methodologies, ensuring smooth project execution and team success.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h3>Enthusiast & Quick Learner</h3>
+                    <p>Passionate technology enthusiast with an insatiable curiosity for learning new technologies and frameworks. Adaptable and quick to grasp new concepts, always eager to explore innovative solutions and stay updated with the latest industry trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>I embarked on my journey in the tech world at the Meerut Institute of Engineering & Technology (MIET), where I developed a solid foundation in software engineering.</p>
+            <p>Throughout my academic career, I have consistently sought opportunities to expand my knowledge and skills, participating in various workshops, hackathons, and coding competitions.</p>
+            
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skill-categories">
+                    <div class="skill-category">
+                        <h3>Full Stack Development</h3>
+                        <ul>
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>TensorFlow</li>
+                            <li>Scikit-learn</li>
+                            <li>Deep Learning</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Science</h3>
+                        <ul>
+                            <li>Data Analysis</li>
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                            <li>Data Visualization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
